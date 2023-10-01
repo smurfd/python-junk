@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# curl https://raw.githubusercontent.com/smurfd/python-junk/main/venv_init.sh | bash
 if not [ -f "$HOME/.pyenv/bin/pyenv" ]; then
   curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
   echo "export PATH=\"${PYENV_ROOT}/bin:\$PATH\"" >> ~/.zshrc
